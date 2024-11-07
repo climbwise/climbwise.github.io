@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.history/
+.vscode/*
+*.vsix
+!.vscode/*.code-snippets
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Secrets
+*.env
+
+# Temporary Files & Folders
+*.temp
+*.tmp
+temp/
+tmp/
+
+# Logs
+*.log
+
+# Backups
+*.bak
+*.ori
+*.orig

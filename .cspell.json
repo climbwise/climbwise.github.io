@@ -1,0 +1,13 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignorePaths": [],
+  "useGitignore": true,
+  "ignoreWords": [
+    "climbwise",
+    "vsix"
+  ],
+  "words": [
+    "codeowners"
+  ]
+}

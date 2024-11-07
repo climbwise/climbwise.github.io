@@ -1,0 +1,38 @@
+# Auto-detects text files and performs LF normalization.
+*               text=auto eol=lf
+
+# Data and Configuration Files
+.editorconfig   text
+*.arb           text
+*.json          text
+*.properties    text
+*.xml           text
+*.yaml          text
+*.yml           text
+
+# Documentation and Licenses
+*.md            text
+AUTHORS         text
+CODEOWNERS      text
+LICENSE         text
+
+# Fonts
+*.eot           binary
+*.otf           binary
+*.ttf           binary
+*.woff          binary
+*.woff2         binary
+
+# Images
+*.ico           binary
+*.jpeg          binary
+*.jpg           binary
+*.png           binary
+*.svg           text
+
+# Videos
+*.mp4           binary
+
+# Git-Specific Files
+.gitattributes  text export-ignore
+.gitignore      text export-ignore
